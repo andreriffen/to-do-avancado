@@ -2,7 +2,7 @@
 
 - 📋📌📝
 
-![https://andreriffen.github.io/to-do-avancado/](https://github.com/andreriffen/to-do-avancado/blob/111/preview.jpg)
+![https://andreriffen.github.io/to-do-avancado/](https://github.com/andreriffen/to-do-avancado/blob/9c0cf370677208e821286820158457e7211ad2e9/preview.jpg)
 
 [Demonstração no GitHub Pages](https://andreriffen.github.io/to-do-avancado/).
 
