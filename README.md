@@ -22,9 +22,9 @@ Quando a página é carregada, a função `addTask()` é acionada para permitir 
 - **CSS 3**: Estilização dos elementos e definição de cores de fundo.
 - **JavaScript Vanilla**: Manipulação de elementos HTML e interatividade da lista de tarefas.
 
-## 🕹️ [Demonstração (GitHub Pages) »](https://github.com/your-username/advanced-to-do-list)
+## 🕹️ [Demonstração (GitHub Pages) »](https://andreriffen.github.io/to-do-avancado/)
 
-Você pode ver a página "To-Do List Avançada" em ação [**clicando aqui »»**](https://github.com/your-username/advanced-to-do-list)
+Você pode ver a página "To-Do List Avançada" em ação [**clicando aqui »»**](https://andreriffen.github.io/to-do-avancado/)
 
 ## 💬 Observações
 
