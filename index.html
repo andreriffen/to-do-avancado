@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do Avançado</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Font Awessome-->
+    <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" 
+    />
+    <!-- JS files-->
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="todo-container">
+        <header>
+            <h1>Lista de Tarefas </h1>
+            <h4>(To-do List Avançado)</h4>
+        </header>
+        <!--add-->
+        <form  id="todo-form">
+            <p>ADICIONAR TAREFA</p>
+            <div class="form-control">
+                    <input type="text" id="todo-input" placeholder="INSIRA UMA TAREFA">
+                    <button type="submit">
+                        <i class="fa-thin fa-plus"></i>
+                    </button>
+            </div> 
+        </form>
+        <!--edit-->
+        <form id="edit-form" class="hide">
+            <p>EDITE SUA TAREFA:</p>
+            <div class="form-control">
+            <input type="text" id="edit-input">
+            <button type="submit">
+            <i class="fa-solid fa-check-double"></i>
+            </button>
+            </div>
+            <button id="cancel-edit-btn">CANCELAR</button>
+        </form>
+        <!--toolbar-->
+        <div id="toolbar">
+            <div id="search">
+            <h4>PESQUISAR:</h4>
+            <form>
+            <input type="text" id="search-input" placeholder="BUSCAR">
+            <button id="erase-button">
+                <i class="fa-solid fa-delete-left"></i>
+            </button>
+            </form>
+            </div>
+            <div id="filter">
+                <h4>Filtar:</h4>
+                <select id="filter-select">
+                    <option value="all">TODOS</option>
+                    <option value="done">FEITOS</option>
+                    <option value="todo">A FAZER</option>
+                </select>
+            </div>
+        </div>
+        <div id="todo-list">
+            <div class="todo done">
+                <h3>Treinar HTML</h3>
+                <button class="finish-todo">
+                    <i class="fa-solid fa-check"></i>
+                </button>
+                <button class="edit-todo">
+                    <i class="fa-solid fa-pen"></i>
+                </button>
+                <button class="remove-todo">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <div class="todo done">
+                <h3>Praticar CSS</h3>
+                <button class="finish-todo">
+                    <i class="fa-solid fa-check"></i>
+                </button>
+                <button class="edit-todo">
+                    <i class="fa-solid fa-pen"></i>
+                </button>
+                <button class="remove-todo">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <div class="todo">
+                <h3>Estudar Javascript</h3>
+                <button class="finish-todo">
+                    <i class="fa-solid fa-check"></i>
+                </button>
+                <button class="edit-todo">
+                    <i class="fa-solid fa-pen"></i>
+                </button>
+                <button class="remove-todo">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
